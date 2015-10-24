@@ -4,9 +4,9 @@ html,body {
 	width:100%;
 	margin:0px;
 	padding:0px;
-	font-family: "Tahoma", Roboto, Times;
+	font-family: "Roboto", Helvetica, sans-serif;
 	line-height: 135%;
-	background-image: url(/img/backg.png);
+	background-image: url(/img/trbg.png);
 	background-size:100% 100%;
 	background-repeat: no-repeat;
 	}
@@ -35,7 +35,7 @@ html,body {
 		font-weight: bold;
 		background-color: black;
         min-width:inherit;
-        text-align:center;
+        text-align:right;
 		padding: 7px;
 		margin-left: 0px;
 		margin-right: 0px;
@@ -75,22 +75,61 @@ html,body {
 	
 	#welcome {
 		margin-top: 12%;
-		margin-left: 7%;
-		margin-right: 3%;
+		margin-left: 15%;
+		margin-right: 15%;
 	}
 	
-	#form {
-		padding-top: 33px;
+	#social {
+		float: left;
+		display: block;
+	}
+	
+	#social a {
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	
+	#logo {
+		float: left;
+		display: block;
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+	
+	#call {
+		text-align:right;
+		margin-right: 20%;
+	}
+	
+	#call:hover {
+    transform: translate(200px, 0px); 
+    -webkit-transform: translate(200px, 0px);
+    transition: all 3s;
+    -webkit-transition: all 3s;
+	}
+	
+	#big{
+		font-size: 120%;
+		font-weight: bold;
 	}
 	
 	#about {
-		margin-top: 15%;
+		margin-top: 16%;
 		margin-left: 11%;
 		margin-right: 3%;
 	}
 	
+	#team{
+		text-align:center;
+	}
+	
+	#person{
+		border: 1px solid black;
+		border-radius:100px;
+	}
+	
 	#sponsors {
-		margin-top: 30%;
+		margin-top: 16%;
 		text-align: center;
 	}
 
@@ -117,7 +156,7 @@ html,body {
 		font-weight: bold;
 		background-color: black;
         min-width:inherit;
-        text-align:center;
+        text-align:right;
 		padding: 7px;
 		margin-left: 0px;
 		margin-right: 0px;
