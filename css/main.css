@@ -4,7 +4,7 @@ html,body {
 	width:100%;
 	margin:0px;
 	padding:0px;
-	font-family: "Roboto", Helvetica, sans-serif;
+	font-family: "Tahoma", Helvetica, sans-serif;
 	line-height: 135%;
 	background-image: url(/img/trbg.png);
 	background-size:100% 100%;
@@ -92,8 +92,12 @@ html,body {
 	#logo {
 		float: left;
 		display: block;
-		padding-left: 6px;
-		padding-right: 6px;
+		vertical-align: middle;
+	}
+	
+	#logo a {
+		padding-left: 4px;
+		padding-right: 4px;
 	}
 	
 	#call {
@@ -124,7 +128,7 @@ html,body {
 	}
 	
 	#person{
-		border: 1px solid black;
+		border: 1.5px solid black;
 		border-radius:100px;
 	}
 	
@@ -133,6 +137,17 @@ html,body {
 		text-align: center;
 	}
 
+	
+	#day{
+		margin-top: 20%;
+		text-align: center;
+	}
+	
+	#schedule{
+		text-align: left;
+		margin-left: 25%;
+	}
+	
 	#tba{
 		color: white;
 		background: #cc0000;
